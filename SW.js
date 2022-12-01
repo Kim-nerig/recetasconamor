@@ -5,11 +5,12 @@ importScripts(
 
 workbox.precaching.precacheAndRoute([
   "index.html",
+  "contacto.html",
+  "galeria.html",
+  "nosotros.html",
+  "script.js",
   "app.js",
   "sw.js",
-  "galeria.html",
-  "contacto.html",
-  "nosotros.html",
   "manifest.webmanifest",
 ]);
 
