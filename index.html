@@ -10,7 +10,15 @@
   <link rel="manifest" href="manifest.webmanifest">
   <script src="app.js"></script>
   <link rel = "stylesheet" href = "style.css">
-  
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "5666897a-1b1a-42a9-a03a-6143eb48d86b",
+    });
+  });
+</script>
 
   <title>Recetas con amor</title>
 
